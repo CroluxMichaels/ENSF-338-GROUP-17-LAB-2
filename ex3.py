@@ -30,7 +30,7 @@ Answers to the questions:
 
 1. Profiler is a tool that measures the time and frequency of function calls in a program, this also allows performance analysis. 
 
-2. Profiling differs from benchmarking in that profiling provides a detailed execution times per function, 
+2. Profiling differs from benchmarking in that profiling provides detailed execution times per function, 
 while benchmarking measures overall execution time for performance comparison.
 
 4. When the program was ran, the third_function() took 0.048 seconds, which is significantly higher. This is because it computes squares 
