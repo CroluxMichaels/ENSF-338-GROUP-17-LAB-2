@@ -99,3 +99,20 @@ plt.plot(list_sizes, avg_binary_times)
 plt.xlabel("Size of Vector")
 plt.ylabel("Average search time (s)")
 plt.show()
+
+# Question 4:
+#
+# Function 1 (Linear Search)
+# Type of function: linear
+# Arguments: list_sizes, which is the number of elements in an ordered vector, and avg_linear_times, which is the time it takes on average
+# to find a randomly selected element of the vector using linear search.
+# The results are as expected, because the complexity of linear search is O(n), and the time it takes on average increased linearly with
+# vector size.
+
+# Function 2 (Binary Search)
+# Type of function: logarithmic
+# Arguments: list_sizes (same as Function 1), and avg_binary_times, which is similar to avg_linear_times but with binary search.
+# The results are also as expected. The complexity of binary search is O(log(n)), so even though the time it took to find a random
+# element increases with vector size, it does not increase as quickly as with linear search. This was clearly reflected in the 
+# graph, which shows the time taken very slowly increase to the point where it could find the random element more than 100 times
+# faster than linear search on average.
