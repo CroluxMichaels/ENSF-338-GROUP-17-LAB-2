@@ -2,8 +2,8 @@ import timeit
 import matplotlib.pyplot as plt
 
 # Q1. What does this code do? [0.1 pts]
-# The code calculates the nth Fibonacci number using recursive approach. The base case is n = 0 and n = 1. 
-# Then for other values of n, the function is called recursively and sum the results. 
+# The code calculates the nth Fibonacci number using a recursive approach. The base cases are n = 0 and n = 1. 
+# Then for other values of n, the function is called recursively and sums the results. 
 
 # Q2. Is this an example of a divide-and-conquer algorithm (think carefully about this one)? [0.1 pts]
 # No, this is not an example of divide-and-conquer algorithm because it does not divide the problem into multiplicatively
