@@ -2,21 +2,20 @@ import cProfile
 import timeit
 
 def sub_function(n):
-    """Sub function that calculates the factorial of n"""
+    # Sub function that calculates the factorial of n
     if n == 0:
         return 1
     else:
         return n * sub_function(n-1)
 
 def test_function():
-    """Function that calls sub_function for numbers 0-9"""
     data = []
-    for j in range(10):
-        data.append(sub_function(j))
+    for i in range(10):
+        data.append(sub_function(i))
     return data
 
 def third_function():
-    """Function that calculates the square of numbers from 0 to 999"""
+    # third function that calculates the square of numbers from 0 to 999
     return [i**2 for i in range(100000000)]
 
 if __name__ == "__main__":
