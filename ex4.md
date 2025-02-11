@@ -6,7 +6,7 @@ Since we only have limited information from the sign, we can use a linear search
 
 2. Number of Steps
 
-A "step" in this context could be moving from one room to the next while checking the room number. We could follow the hallway to the left since it indicates rooms 100-130, counting each room until I reach EY128. Starting from the entrance, this would mean we would take about 15 steps.
+A "step" in this context could be moving from one room to the next while checking the room number. We could follow the hallway to the left since it indicates rooms 100-130, counting each room until we reach EY128. Since we start from the entrance, this would mean we would take about 15 steps.
 
 3. Scenario Classification
 
