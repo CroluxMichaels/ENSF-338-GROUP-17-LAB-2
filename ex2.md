@@ -22,7 +22,7 @@ If data is heavily grouped or there is an irregular pattern, interpolation searc
 
 ### 5. In which case will linear search outperform both binary and interpolation search, and why? 
 Linear search may be faster when dealing with small datasets due to lower overhead compared to interpolation and binary search.
-Linear search can also outperform both binary and iterpolation search if the given data are nearly sorted or partially sorted, beacuse linear search cab find it in constant time, while other ones require extra computations. 
+Linear search can also outperform both binary and iterpolation search if the given data are nearly sorted or partially sorted, beacuse linear search can find it in constant time, while other ones require extra computations. 
 
 ### 6. Is there a way to improve binary and interpolation search to solve this issue? 
 Yes. It can be done by combining linear search with binary or interpolation search. Another way is to modify interpolation search to use a different positional estimation formula based on the actual data distribution. 
